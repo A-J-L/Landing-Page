@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+
+.hero, 
+footer {
+    background-color: #1F2937;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+
+.header h1 {
+    flex-wrap: nowrap;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header p {
+    color: #fff;
+    margin: 10px;
+}
+
+.placeholder {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 200px;
+    border: 2px solid grey;
+    background-color: grey;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.container3 {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+}
+
+.container3 button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info {
+    text-align: center;
+    margin: 20px;
+}
+
+.boxes {
+    display: flex;
+    margin: 16px;
+    gap: 24px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    flex: 1;
+    width: 220px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container2 {
+    display: flex;
+    gap: 24px;
+    margin: 10px;
+}
+
+.subtext {
+    flex: 1;
+    width: 200px;
+    margin: 10px;
+    text-align:center
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: justify;
+    padding: 86px;
+}
+
+.quote-ref {
+    text-align: right;
+    font-weight: 700;
+}
+
+.container4 {
+    display: flex;
+    background-color: #3882f6;
+    border: solid #3882f6;
+}
+
+.action {
+    padding: 20px;
+    text-align: left;
+}
+
+.action h3 {
+    color: #fff;
+    flex: 1;
+}
+
+.action p {
+    color: #fff;
+    flex: 1;
+}
+
+footer {
+    color: #fff;
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+}
